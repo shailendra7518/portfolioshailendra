@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shailendra-portfolio/static/css/main.af4afad6.css",
+    "main.js": "/shailendra-portfolio/static/js/main.8713fbcf.js",
+    "static/js/787.bf37847f.chunk.js": "/shailendra-portfolio/static/js/787.bf37847f.chunk.js",
+    "static/media/shailendra_resume.pdf": "/shailendra-portfolio/static/media/shailendra_resume.b661aee5d190c340bdba.pdf",
+    "index.html": "/shailendra-portfolio/index.html",
+    "main.af4afad6.css.map": "/shailendra-portfolio/static/css/main.af4afad6.css.map",
+    "main.8713fbcf.js.map": "/shailendra-portfolio/static/js/main.8713fbcf.js.map",
+    "787.bf37847f.chunk.js.map": "/shailendra-portfolio/static/js/787.bf37847f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af4afad6.css",
+    "static/js/main.8713fbcf.js"
+  ]
+}

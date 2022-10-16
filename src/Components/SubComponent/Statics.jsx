@@ -5,7 +5,7 @@ import GitHubCalendar from 'react-github-calendar';
 function Statics() {
   const { Theme } = useContext(AppContext);
   return (
-    <Stack p={8} mt={4} bg={Theme.about.backgroundColor}>
+    <Stack p={[1,8,8]} mt={4} bg={Theme.about.backgroundColor}>
       <Heading
         borderRadius={6}
         textAlign={'center'}

@@ -42,7 +42,7 @@ const MyCarousel = arrOfurl => {
 function Projects() {
   const { Theme } = useContext(AppContext);
   return (
-    <Container p={8} mt={4} maxW={''} bg={Theme.about.backgroundColor}>
+    <Container p={[1,8,8]} mt={4} maxW={''} bg={Theme.about.backgroundColor}>
          <Heading  borderRadius={6} textAlign={"center"} bg={Theme.about.cardBgColor}>Projects</Heading>
       <Stack
       mt={4}

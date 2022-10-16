@@ -33,7 +33,7 @@ function Home() {
   return (
     <>
       <Stack
-        p={8}
+        p={[1,8,8]}
         spacing={20}
         justifyContent={'space-evenly'}
         alignItems={'center'}
@@ -45,8 +45,8 @@ function Home() {
           borderRadius={20}
           bgColor={Theme.about.cardBgColor}
           shadow={'lg'}
-          h={'270px'}
-          w={'260px'}
+          h={['360px','260px','260px']}
+          w={['100%','260px','260px']}
           p={5}
           src="https://www.linkpicture.com/q/profile_24.png"
         />

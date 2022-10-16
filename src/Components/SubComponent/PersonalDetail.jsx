@@ -12,7 +12,7 @@ function PersonalDetail() {
       shadow={'lg'}
       mt={4}
       maxW={''}
-      p={8}
+      p={[1,8,8]}
       bgColor={Theme.about.backgroundColor}
     >
       <Stack direction={['column', 'column', 'row']}>

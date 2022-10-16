@@ -48,7 +48,7 @@ function Contact() {
   }
 
   return (
-    <Stack mt={4} p={8} bg={Theme.about.backgroundColor}>
+    <Stack mt={4} p={[1,8,8]} bg={Theme.about.backgroundColor}>
       <Heading
         borderRadius={6}
         textAlign={'center'}

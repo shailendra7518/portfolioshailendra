@@ -19,7 +19,7 @@ function TechTools() {
         <Heading borderRadius={6} textAlign={"center"} mt={4} bg={Theme.about.cardBgColor}>Tech Stack</Heading>
       
 
-      <Grid  mt={4} columnGap={[8,8,20]} rowGap={8} templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)','repeat(5, 1fr)']}>
+      <Grid  mt={4} columnGap={[8,8,10,20]} rowGap={8} templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)','repeat(5, 1fr)']}>
         <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
           <Image
@@ -128,7 +128,7 @@ function TechTools() {
         <Heading borderRadius={6} textAlign={"center"} mt={4} bg={Theme.about.cardBgColor} >Tools</Heading>
     
 
-      <Grid mt={4} pb={5} columnGap={[8,8,20]} rowGap={8} templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)','repeat(5, 1fr)']}>
+      <Grid mt={4} pb={5} columnGap={[8,8,10,20]} rowGap={8} templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)','repeat(5, 1fr)']}>
         <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
           <Image

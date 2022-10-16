@@ -9,8 +9,8 @@ function Skills() {
     <Stack p={[1,8,8]} mt={4} bg={Theme.about.backgroundColor} direction={"column"}>
       <Box w={"100%"}>
         <Heading borderRadius={6} textAlign={"center"} bg={Theme.about.cardBgColor}>Soft Skills</Heading>
-          <Grid gap={4}   mt={3} templateColumns={['repeat(1, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)']}>
-          <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
+          <Grid columnGap={[8,8,20]} rowGap={8}  mt={3} templateColumns={['repeat(1, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)']}>
+          <Box   shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
             <Image
               h={[300,150,150]}
@@ -21,7 +21,7 @@ function Skills() {
               TeamWork
             </Text>
           </Box>
-          <Box justifySelf={"center"} shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
+          <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
             <Image
                h={[300,150,150]}
@@ -32,7 +32,7 @@ function Skills() {
             Adaptability 
             </Text>
           </Box>
-          <Box justifySelf={"center"} shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
+          <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
             <Image
             alignSelf={"center"}
@@ -44,7 +44,7 @@ function Skills() {
             Time Management
             </Text>
           </Box>
-          <Box justifySelf={"center"} shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
+          <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
             <Image
             alignSelf={"center"}
@@ -60,8 +60,8 @@ function Skills() {
       </Box>
       <Box w={"100%"}>
         <Heading borderRadius={6} textAlign={"center"} mt={4} bg={Theme.about.cardBgColor}>Techinical Skills</Heading>
-          <Grid mt={3} gap={4} templateColumns={['repeat(1, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)']}>
-          <Box justifySelf={"center"} shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
+          <Grid mt={3} columnGap={[8,8,20]} rowGap={8} templateColumns={['repeat(1, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)']}>
+          <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
             <Image
                h={[300,150,150]}
@@ -72,7 +72,7 @@ function Skills() {
             Web development
             </Text>
           </Box>
-          <Box justifySelf={"center"} shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
+          <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
             <Image
                h={[300,150,150]}
@@ -83,7 +83,7 @@ function Skills() {
             Programming L
             </Text>
           </Box>
-          <Box justifySelf={"center"} shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
+          <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
             <Image
             alignSelf={"center"}
@@ -95,7 +95,7 @@ function Skills() {
                DSA
             </Text>
           </Box>
-          <Box justifySelf={"center"} shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
+          <Box  shadow={'lg'} borderRadius={20} bg={Theme.about.cardBgColor} p={5}>
             
             <Image
             alignSelf={"center"}

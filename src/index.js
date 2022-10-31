@@ -6,6 +6,7 @@ import AppContextProvider from './Context/AppContextProvider';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
 import { pdfjs } from "react-pdf";
+import { BrowserRouter } from 'react-router-dom';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
@@ -15,7 +16,9 @@ root.render(
     <ChakraProvider>
     <ColorModeScript />
     <AppContextProvider>
+        <BrowserRouter>
     <App />
+    </BrowserRouter>
     </AppContextProvider>
     </ChakraProvider>
     

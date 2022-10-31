@@ -21,25 +21,25 @@ const [isClose,setisClose]=useState(false)
 
 <Button onClick={()=>{
    window.scroll({
-    top: 740,
+    top: 1240,
     behavior: 'smooth'
   });
    }}>Tech&Tools</Button>
    <Button onClick={()=>{
    window.scroll({
-    top: 1500,
+    top: 2900,
     behavior: 'smooth'
   });
    }}>Skills</Button>
     <Button onClick={()=>{
    window.scroll({
-    top: 2150,
+    top: 6170,
     behavior: 'smooth'
   });
    }}>Project</Button>
      <Button onClick={()=>{
    window.scroll({
-    top: 3240,
+    top: 22070,
     behavior: 'smooth'
   });
    }}>Contact</Button></Grid>:null }
@@ -78,7 +78,7 @@ const [isClose,setisClose]=useState(false)
    }}>Project</Button>
      <Button onClick={()=>{
    window.scroll({
-    top: 3240,
+    top:3870,
     behavior: 'smooth'
   });
    }}>Contact</Button>

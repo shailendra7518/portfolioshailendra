@@ -5,7 +5,7 @@ import { AppContext } from '../../Context/AppContextProvider';
 function PersonalDetail() {
   const { Theme } = useContext(AppContext);
 
-  console.log(Theme);
+  
 
   return (
     <Container

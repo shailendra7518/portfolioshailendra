@@ -9,6 +9,7 @@ import {
   Grid,
   Link,
 } from '@chakra-ui/react';
+
 import React, { useContext} from 'react';
 import { AppContext } from '../../Context/AppContextProvider';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader

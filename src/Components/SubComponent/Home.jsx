@@ -48,7 +48,7 @@ function Home() {
           h={['360px','260px','260px']}
           w={['100%','260px','260px']}
           p={5}
-          src="https://www.linkpicture.com/q/profile_24.png"
+          src="https://avatars.githubusercontent.com/u/93985081?s=400&u=e14633ad5127082a451e9eab2e136955cd766451&v=4"
         />
 
         <Box

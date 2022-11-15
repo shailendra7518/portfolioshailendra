@@ -47,6 +47,13 @@ const purpullImage=[
   "https://user-images.githubusercontent.com/67849097/146674905-7140d13c-8a7c-41c0-b19b-dba21e09c282.png",
   "https://user-images.githubusercontent.com/67849097/146674915-36c7ec06-b4e2-44da-b2fa-0429df71b429.jpg"
 ]
+const todoImage=[
+  "https://i.ibb.co/MkST5rP/todo-my.png",
+  "https://i.ibb.co/8m06HpN/image.png",
+  "https://i.ibb.co/sRCgPjV/todo-mobile.png",
+
+]
+
 const MyCarousel = arrOfurl => {
   return (
     <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
@@ -122,6 +129,60 @@ function Projects() {
         borderRadius={10}
         bg={Theme.about.cardBgColor}
       >
+        <Box w={['100%', '100%', '40%']}>{MyCarousel(todoImage)}</Box>
+        <Box w={['100%', '100%', '56%']}>
+          <Heading fontSize={'3xl'}>Todo app With Backend</Heading>
+          <Text fontStyle={"italic"}  mt={3} fontWeight={'Sample'}>
+          A user may add to todo task list, view all the tasks they have to complete,if the task is completed then just click on that task after clicking it will show as completed and the completed task can be deleted by "Delete Completed Button".
+          </Text>
+          <Text mt={2} fontFamily={'heading'} fontWeight={'bold'}>
+            It was a solo project , i have created it using react , redux , mongoDB and chakra ui.
+          </Text>
+          <Grid mt={3} gap={3} templateColumns={['repeat(1, 1fr)','repeat(4, 1fr)','repeat(5, 1fr)']}>
+            <Button leftIcon={<FaHtml5 />} colorScheme="green" variant="solid">
+              HTML
+            </Button>
+            <Button leftIcon={<IconBrandJavascript />} colorScheme="green" variant="solid">
+              JavaScript
+            </Button>
+            <Button leftIcon={<IconBrandCss3 />} colorScheme="green" variant="solid">
+              CSS
+            </Button>
+            <Button leftIcon={<IconBrandCss3 />} colorScheme="green" variant="solid">
+              Charka UI
+            </Button>
+            <Button leftIcon={<FaNodeJs />} colorScheme="green" variant="solid">
+              NodeJs
+            </Button>
+            <Button leftIcon={<DiMongodb />} colorScheme="green" variant="solid">
+              MongoDB
+            </Button>
+          </Grid>
+
+
+          
+          <Grid mt={4} gap={10} templateColumns={['repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)']}>
+          <Button leftIcon={<FaGithub />} colorScheme="gray" variant="solid">
+            <Link isExternal={true} href="https://github.com/shailendra7518/Todo-App-with-backend">   Github</Link>
+
+          
+            </Button>
+            <Button leftIcon={<FaLink />} colorScheme="teal" variant="solid">
+              <Link isExternal={true} href="https://todo-app-with-backend-api.netlify.app/">  Live</Link>
+         
+            </Button>
+          </Grid>
+        </Box>
+      </Stack>
+
+      <Stack
+      mt={4}
+        justifyContent={'space-between'}
+        direction={['column', 'column', 'row']}
+        p={4}
+        borderRadius={10}
+        bg={Theme.about.cardBgColor}
+      >
         <Box w={['100%', '100%', '40%']}>{MyCarousel(marriotImage)}</Box>
         <Box w={['100%', '100%', '56%']}>
           <Heading fontSize={'3xl'}>Marriott bonvoy</Heading>
@@ -161,7 +222,6 @@ function Projects() {
           </Grid>
         </Box>
       </Stack>
-
 
       <Stack
       mt={4}

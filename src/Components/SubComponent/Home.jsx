@@ -22,7 +22,7 @@ import React, { useContext } from 'react';
 import { AppContext } from '../../Context/AppContextProvider';
 import { DownloadIcon } from '@chakra-ui/icons';
 import { Document, Page, pdfjs } from 'react-pdf';
-import resume from '../assets/shailendra_resume.pdf';
+import resume from '../assets/fw14_172_shailendra_kumar.pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -76,7 +76,7 @@ function Home() {
               p={[2, 3, 5]}
               bgColor={Theme.about.buttonBgColor}
               onClick={() => {
-                saveAs(resume, 'shailendra_resume.pdf');
+                saveAs(resume, 'fw14_172_shailendra_kumar_resume.pdf');
               }}
             >
               Resume &nbsp; <DownloadIcon />

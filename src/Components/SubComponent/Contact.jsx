@@ -83,7 +83,7 @@ function Contact() {
           bg={Theme.about.cardBgColor}
         >
           <AiOutlineMail size={'30px'} />
-          <Heading fontSize={'3xl'}>Email</Heading>
+          <Heading fontSize={"3xl"}>Email</Heading>
           <Text fontWeight={'bold'} fontSize={'1xl'}>
             shailendraftp0001@gmail.com
           </Text>

@@ -3,6 +3,7 @@ import React, { createContext, useEffect, useState } from 'react';
 
 export const AppContext = createContext();
 function AppContextProvider({ children }) {
+
   const DarkTheme = {
     about: {
      fontColor: 'white',
@@ -21,6 +22,7 @@ function AppContextProvider({ children }) {
       cardBgColor:"white"
     },
   };
+
   const [width, setwidth] = useState(window.innerWidth);
   const { colorMode} = useColorMode();
   const [Theme, setTheme] = useState(
